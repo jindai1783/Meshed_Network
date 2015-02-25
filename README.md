@@ -5,6 +5,7 @@
 "What if you could communicate with anyone, anywhere, without going over an inch of corporate or government cable?"
 
 Meshed network vs Internet Service Provider (ISP)
+
 1. Centralised authority control-free
 2. Robustness in natural disaster
 3. Political free
@@ -12,7 +13,7 @@ Meshed network vs Internet Service Provider (ISP)
 
 ## Security
 
-Resources
+*Resources*
 * [ChatSafe]
 * [FireChat]
 * [Encrypted Chat]
@@ -27,11 +28,12 @@ Maybe a chat room structure is better than a p2p encryption?
 Chat room only allow people with the key to access.
 Other people cannot access the chat room unless they have got the key.
 
-2 types of security
+# Two types of security
 
 1. A communication channel that the server don't allow outsider to see.
 2. A communication channel that the server itself cannot see.
 
+*Resources*
 * [Private Socket room]
 * [Candy]
 
@@ -55,11 +57,11 @@ The core module in the Cryptalk is [cryptojs]
 [cryptojs]: http://cryptojs.altervista.org/api/#.VO4Oy8bHJRE
 
 A glimpse of what this module does can be seen from my [Cryptography] repository.
-This can be how we implement the security layer of Meshee.
+This uses Advanced Encryption Standard (AES) for encryption, and can be how we implement the security layer of Meshee.
 
 [Cryptography]: https://github.com/jindai1783/Cryptography
 
 ## Glossary
 
-Ad hoc networking: a system of network elements that combine to form a network requiring little or no planning.
-NSA: National Security Agent
+* Ad hoc networking: a system of network elements that combine to form a network requiring little or no planning.
+* NSA: National Security Agent

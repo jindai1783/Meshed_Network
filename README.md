@@ -48,6 +48,17 @@ At one stage, we almost used [FreeStep], but then we realised that the code is m
 
 [FreeStep]: https://freestep.net
 
+## Cryptalk Reverse Engineering
+
+The core module in the Cryptalk is [cryptojs]
+
+[cryptojs]: http://cryptojs.altervista.org/api/#.VO4Oy8bHJRE
+
+A glimpse of what this module does can be seen from my [Cryptography] repository.
+This can be how we implement the security layer of Meshee.
+
+[Cryptography]: https://github.com/jindai1783/Cryptography
+
 ## Glossary
 
 Ad hoc networking: a system of network elements that combine to form a network requiring little or no planning.

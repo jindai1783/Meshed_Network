@@ -44,6 +44,10 @@ Since we would like the government to have no way to decipher the message, we wa
 
 [Cryptalk]: https://www.npmjs.com/package/cryptalk
 
+At one stage, we almost used [FreeStep], but then we realised that the code is maintained by only one single developer, and there are parts missing in the documentation (gitignored ssl folder), which forced us to look into other modules and eventually selected Cryptalk as our settlement.
+
+[FreeStep]: https://freestep.net
+
 ## Glossary
 
 Ad hoc networking: a system of network elements that combine to form a network requiring little or no planning.

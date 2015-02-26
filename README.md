@@ -61,6 +61,12 @@ This uses Advanced Encryption Standard (AES) for encryption, and can be how we i
 
 [Cryptography]: https://github.com/jindai1783/Cryptography
 
+## Secure Chat
+
+A simple integration of Socket.io chat with client-side encryption can be find at the repository [Secure Chat]. It uses AES encrytion, and only when the cipher key and decipher key matches you can see the message, otherwise you will only see 'null'.
+
+[Secure Chat]: https://github.com/jindai1783/Secure_Chat
+
 ## Glossary
 
 * Ad hoc networking: a system of network elements that combine to form a network requiring little or no planning.
